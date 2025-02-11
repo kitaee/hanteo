@@ -2,11 +2,18 @@ public class Test2 {
 
     public static void main(String[] args) {
 
-        // input
-        int[] coins = {2,5,3,6};
-        int sum = 10;
+        // input1
+        int[] coins = {1,2,3};
+        int sum = 4;
 
-        // solution
+        // solution1
+        System.out.println(solution(coins, sum));
+
+        // input2
+        coins = new int[]{2,5,3,6};
+        sum = 10;
+
+        // solution2
         System.out.println(solution(coins, sum));
     }
 
